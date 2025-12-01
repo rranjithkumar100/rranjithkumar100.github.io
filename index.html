@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranjith Kumar - Senior Mobile App Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        
+        .hero-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin: 0 auto 30px;
+            display: block;
+            object-fit: cover;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        
+        .hero .tagline {
+            font-size: 1.3rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            padding: 80px 20px;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #667eea;
+        }
+        
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .skill-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .skill-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .experience-timeline {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .experience-item {
+            background: #f8f9fa;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        
+        .experience-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .experience-item .company {
+            font-weight: bold;
+            color: #764ba2;
+            margin-bottom: 5px;
+        }
+        
+        .experience-item .duration {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .contact h2 {
+            color: white;
+        }
+        
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 15px 30px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50px;
+            transition: all 0.3s;
+        }
+        
+        .contact-links a:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-3px);
+        }
+        
+        .education-item {
+            background: #f8f9fa;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        .education-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero .tagline {
+                font-size: 1rem;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <img src="https://github.com/rranjithkumar100.png" alt="Ranjith Kumar" class="hero-image">
+        <h1>Ranjith Kumar</h1>
+        <p class="tagline">Senior Mobile App Developer | Computer Vision & AI Specialist</p>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Computer Vision ML Engineer specializing in Mobile AI Applications for Android & iOS. With over 10+ years of experience in mobile development, I create efficient, on-device AI solutions that power next-generation applications. Currently working at Technology Control Company in Riyadh, Saudi Arabia, where I lead innovative projects in machine learning and computer vision.</p>
+                <p style="margin-top: 20px;">I hold a Post Graduate certification in AI and Machine Learning from Caltech and have a proven track record of delivering high-impact mobile applications with millions of downloads.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Mobile Development</h3>
+                    <p>Android, iOS, Kotlin, Swift, Java, React Native, Flutter</p>
+                </div>
+                <div class="skill-card">
+                    <h3>AI & ML</h3>
+                    <p>Computer Vision, Machine Learning, TensorFlow, AI Model Integration</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Technologies</h3>
+                    <p>Firebase, REST APIs, SQLite, Room, Jetpack Compose, SwiftUI</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Platforms</h3>
+                    <p>Git, JIRA, Android Studio, Xcode, Augmented Reality</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <h3>Software Developer Expert</h3>
+                    <div class="company">Technology Control Company (TCC) - Riyadh, Saudi Arabia</div>
+                    <div class="duration">August 2021 - Present (4+ years)</div>
+                    <p>Leading mobile AI application development with focus on Computer Vision and Machine Learning. Working with latest technologies including Jetpack Compose and implementing government-related applications.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Software Developer</h3>
+                    <div class="company">Tawari Technology - Riyadh, Saudi Arabia</div>
+                    <div class="duration">January 2020 - July 2021 (1 year 7 months)</div>
+                    <p>Developed government applications with basic SwiftUI iOS development expertise. Enhanced cross-platform mobile solutions.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Senior Android Developer</h3>
+                    <div class="company">Casperon Technologies - Chennai, India</div>
+                    <div class="duration">February 2018 - June 2019 (1 year 5 months)</div>
+                    <p>Built enterprise chat application (WhatsApp clone) and remote support application using Augmented Reality. Extensive work with Kotlin programming.</p>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Android Developer</h3>
+                    <div class="company">Ajax Media Tech - Chennai, India</div>
+                    <div class="duration">July 2016 - January 2018 (1 year 7 months)</div>
+                    <p>Maintained high-traffic applications including News7Tamil and TV9 apps with over 1 million downloads. Managed live streaming and video news features.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+            <h2>Education & Certifications</h2>
+            <div class="experience-timeline">
+                <div class="education-item">
+                    <h3>Post Graduate Program in AI and Machine Learning</h3>
+                    <p><strong>Caltech</strong> - 2024</p>
+                    <p>Specialized program in Artificial Intelligence and Data Science</p>
+                </div>
+                
+                <div class="education-item">
+                    <h3>Professional Certificate Program in Blockchain</h3>
+                    <p><strong>IIT Kanpur</strong> - 2023</p>
+                </div>
+                
+                <div class="education-item">
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p><strong>Anna University Chennai</strong> - 2011-2014</p>
+                    <p>Computer Science - First Class (73%)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-links">
+                <a href="mailto:rranjithkumar100@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/ranjith-ksa/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/rranjithkumar100" target="_blank">GitHub</a>
+                <a href="https://stackoverflow.com/users/3879847/ranjithkumar" target="_blank">Stack Overflow</a>
+                <a href="https://www.jetpackcompose.net/" target="_blank">Blog</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
